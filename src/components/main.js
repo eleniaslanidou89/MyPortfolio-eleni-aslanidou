@@ -9,13 +9,13 @@ import Arbetslivserfarenhet from './Arbetslivserfarenhet'
 const Main = () => (
   <Switch>
     <Route exact path="/" component={LandingPage} />
-    <Route
+    {/* <Route
       path="/UtbildningDatakunskaper"
       component={UtbildningDatakunskaper}
-    />
+    /> */}
     <Route path="/contact" component={Contact} />
     <Route path="/projects" component={Projects} />
-    <Route path="/Arbetslivserfarenhet" component={Arbetslivserfarenhet} />
+    {/* <Route path="/Arbetslivserfarenhet" component={Arbetslivserfarenhet} /> */}
   </Switch>
 )
 

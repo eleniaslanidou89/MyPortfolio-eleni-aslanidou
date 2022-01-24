@@ -38,25 +38,25 @@ const API =
 class App extends Component {
   constructor(props) {
     super(props)
-    this.state = {
-      temperature: '',
-    }
+    // this.state = {
+    //   temperature: '',
+    //}
   }
 
-  hideToggle() {
-    var selectorId = document.querySelector('.mdl-layout')
-    selectorId.MaterialLayout.toggleDrawer()
-  }
+  // hideToggle() {
+  //   var selectorId = document.querySelector('.mdl-layout')
+  //   selectorId.MaterialLayout.toggleDrawer()
+  // }
 
-  componentDidMount() {
-    console.log('CDM ran')
-    fetch(API)
-      .then((response) => response.json())
-      .then((data) => this.setState({ temperature: data.main.temp }))
-  }
+  // componentDidMount() {
+  //   console.log('CDM ran')
+  //   fetch(API)
+  //     .then((response) => response.json())
+  //     .then((data) => this.setState({ temperature: data.main.temp }))
+  // }
 
   render() {
-    const temperature = this.state.temperature
+    // const temperature = this.state.temperature
     // const pressure = this.state.pressure;
     // const humidity = this.state.humidity;
 
@@ -70,43 +70,34 @@ class App extends Component {
                   textDecoration: 'none',
                   fontColor: 'black',
                   fontFamily: 'Sriracha',
-                  backgroundColor: '#F2F2F2',
+                  backgroundColor: '#FFFFFF',
                 }}
                 title={
                   <Link
                     style={{
-                      textDecoration: 'none',
+                      textDecoration: 'bold',
                       color: 'black',
-                      fontFamily: 'Sriracha',
+                      fontFamily: 'Dancing Script, cursive',
+                      fontSize: '25px',
                     }}
                     to="/"
                   >
-                    My Portfolio
+                    Eleni Aslanidou
                   </Link>
                 }
                 scroll
               >
                 <Navigation>
-                  <Link
-                    to="/Arbetslivserfarenhet"
+                  {/* <Link
+                    to="/"
                     style={{
                       fontSize: '20px',
                       color: 'black',
                       fontFamily: 'Sriracha',
                     }}
                   >
-                    Work Experience
-                  </Link>
-                  <Link
-                    to="/UtbildningDatakunskaper"
-                    style={{
-                      fontSize: '20px',
-                      color: 'black',
-                      fontFamily: 'Sriracha',
-                    }}
-                  >
-                    Education
-                  </Link>
+                    Home
+                  </Link> */}
                   <Link
                     to="/projects"
                     style={{
@@ -125,79 +116,15 @@ class App extends Component {
                       fontFamily: 'Sriracha',
                     }}
                   >
-                    Contact
+                    About
                   </Link>
 
                   <div className="page-content" />
                 </Navigation>
-                <div className="temperature">
+                {/* <div className="temperature">
                   Temperature in Stockholm: {temperature || '?'}°C
-                </div>
+                </div> */}
               </Header>
-              <Drawer>
-                <Navigation>
-                  <Link
-                    onClick={() => this.hideToggle()}
-                    style={{
-                      textDecoration: 'none',
-                      color: 'blue',
-                      fontSize: '20px',
-                      fontFamily: 'Sriracha',
-                    }}
-                    to="/"
-                  >
-                    Home
-                  </Link>
-                  <Link
-                    onClick={() => this.hideToggle()}
-                    to="/Arbetslivserfarenhet"
-                    style={{
-                      color: 'black',
-                      fontSize: '15px',
-                      fontFamily: 'Sriracha',
-                    }}
-                  >
-                    Work Experience
-                  </Link>
-                  <Link
-                    onClick={() => this.hideToggle()}
-                    to="/UtbildningDatakunskaper"
-                    style={{
-                      color: 'black',
-                      fontSize: '15px',
-                      fontFamily: 'Sriracha',
-                    }}
-                  >
-                    Education
-                  </Link>
-                  <Link
-                    onClick={() => this.hideToggle()}
-                    to="/projects"
-                    style={{
-                      color: 'black',
-                      fontSize: '15px',
-                      fontFamily: 'Sriracha',
-                    }}
-                  >
-                    Projects
-                  </Link>
-                  <Link
-                    onClick={() => this.hideToggle()}
-                    to="/contact"
-                    style={{
-                      color: 'black',
-                      fontSize: '15px',
-                      fontFamily: 'Sriracha',
-                    }}
-                  >
-                    Contact
-                  </Link>
-                </Navigation>
-                <div className="temperature">
-                  Temperature in Stockholm: {temperature || '?'}°C{' '}
-                </div>
-              </Drawer>
-
               <Content>
                 <Main />
               </Content>

@@ -544,11 +544,38 @@ class Projects extends Component {
       )
     } else if (this.state.activeTab === 1) {
       return (
-        <div className="språk">
-          <h1>Greek: Native </h1>
-          <h1>Swedish: Upper-intermediate</h1>
-          <h1>English: Proficient</h1>
-          <h1>Russian: Proficient(only speaking)</h1>
+        <div className="weDesign">
+          <h3>Welcome to my App</h3>
+          {/*Project #1*/}
+          <img src="1.jpg" alt="Eleni" className="wedDesign__image--project1" />
+          <h4>The Challenge:</h4>
+          <div className='webDesign__description'>
+          By this App, the user has the <br/> opportunity to purchase a variety of products.
+          </div>
+          <br/>
+          <img src="3.jpg" alt="Eleni" className="wedDesign__image--project1" />
+          <div className='webDesign__details'>
+            <h4>Every element made with love</h4>
+          <img src="2.jpg" alt="Eleni" className="wedDesign__image--project1" />
+          </div>
+         <div className="weDesign">
+         <img src="5.jpg" alt="Eleni" className="wedDesign__image5--project1" />
+         </div>
+         <div className="weDesign">
+         <img src="6.jpg" alt="Eleni" className="wedDesign__image5--project1" />
+         </div>
+         <hr/>
+         <div className="weDesign">
+         <img src="4.jpg" alt="Eleni" className="wedDesign__image5--project1" />
+         </div>
+         <hr/>
+         <div className="weDesign">
+         <h3>Kurious Koala KK</h3>
+         <div className='webDesign__description'>The creation of this Kurious Koala game is the result of love for design, coding and children.</div>
+         <img src="7.jpg" alt="Eleni" className="wedDesign__image5--project1" />
+         <img src="8.jpg" alt="Eleni" className="wedDesign__image5--project1" />
+         <img src="9.jpg" alt="Eleni" className="wedDesign__image5--project1" />
+         </div>
         </div>
       )
     }
@@ -563,10 +590,10 @@ class Projects extends Component {
             ripple
           >
             <Tab style={{ fontFamily: 'Segoe UI', color: 'black' }}>
-              Projects
+              Front-end Projects
             </Tab>
             <Tab style={{ fontFamily: 'Segoe UI', color: 'black' }}>
-              Languages
+              Web Design Projects
             </Tab>
           </Tabs>
         </Layout>
