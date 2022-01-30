@@ -46,8 +46,8 @@ class Landing extends Component {
                   Angular
                 </p>
              */}
-              <div className="social-links ">
-                {/*linkedIn*/}
+              {/* <div className="social-links">
+               
                 <a
                   href="https://www.linkedin.com/in/eleni-aslanidou/"
                   rel="noopener noreferrer"
@@ -55,7 +55,7 @@ class Landing extends Component {
                 >
                   <i className="fab fa-linkedin-square" aria-hidden="true" />
                 </a>
-                {/*GitHub*/}
+               
                 <a
                   href="https://github.com/eleniaslanidou89"
                   rel="noopener noreferrer"
@@ -63,7 +63,7 @@ class Landing extends Component {
                 >
                   <i className="fab fa-github-square" aria-hidden="true" />
                 </a>
-              </div>
+              </div> */}
             </Cell>
           </Grid>
         </Layout>

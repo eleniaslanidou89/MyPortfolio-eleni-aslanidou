@@ -42,7 +42,10 @@ class App extends Component {
     //   temperature: '',
     //}
   }
-
+  hideToggle() {
+    var selectorId = document.querySelector('.mdl-layout')
+    selectorId.MaterialLayout.toggleDrawer()
+  }
   // hideToggle() {
   //   var selectorId = document.querySelector('.mdl-layout')
   //   selectorId.MaterialLayout.toggleDrawer()
@@ -125,6 +128,44 @@ class App extends Component {
                   Temperature in Stockholm: {temperature || '?'}°C
                 </div> */}
               </Header>
+              <Drawer>
+                <Navigation>
+                  <Link
+                    onClick={() => this.hideToggle()}
+                    style={{
+                      textDecoration: 'none',
+                      color: 'blue',
+                      fontSize: '20px',
+                      fontFamily: 'Sriracha',
+                    }}
+                    to="/"
+                  >
+                    Home
+                  </Link>
+                  <Link
+                    onClick={() => this.hideToggle()}
+                    to="/contact"
+                    style={{
+                      color: 'black',
+                      fontSize: '15px',
+                      fontFamily: 'Sriracha',
+                    }}
+                  >
+                    Contact
+                  </Link>
+                  <Link
+                    onClick={() => this.hideToggle()}
+                    to="/projects"
+                    style={{
+                      color: 'black',
+                      fontSize: '15px',
+                      fontFamily: 'Sriracha',
+                    }}
+                  >
+                    Projects
+                  </Link>
+                </Navigation>
+              </Drawer>
               <Content>
                 <Main />
               </Content>
