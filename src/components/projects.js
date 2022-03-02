@@ -544,38 +544,370 @@ class Projects extends Component {
       )
     } else if (this.state.activeTab === 1) {
       return (
-        <div className="weDesign">
-          <h3>Welcome to my App</h3>
+        // <div className="weDesign">
+        //   <h3>Welcome to my App</h3>
+        //   {/*Project #1*/}
+        //   <img src="1.jpg" alt="Eleni" className="wedDesign__image--project1" />
+        //   <div className="webDesign__description">
+        //     <ul>
+        //       <li>My role: UX/UI Designer</li>
+        //       <li>Challenge:</li>
+        //       <li>Tools: Figma</li>
+        //       <li>Duration:2 weeks</li>
+        //       <li>Prototype:</li>
+        //     </ul>
+        //   </div>
+        //   <h4>The Goal:</h4>
+        //   <div className="webDesign__description">
+        //     When I started working on this project my goal was to create <br />{' '}
+        //     an easy to use and visually appealing online store.
+        //     <br />
+        //     I believe that this app has been successful in completing the goal
+        //     as it has <br /> it's own distinctive style but also offers a simple
+        //     user journey for customers to buy products.
+        //   </div>
+        //   <br />
+        //   <img src="3.jpg" alt="Eleni" className="wedDesign__image--project1" />
+        //   <div className="webDesign__details">
+        //     <h4>Every element made with love</h4>
+        //     <img
+        //       src="2.jpg"
+        //       alt="Eleni"
+        //       className="wedDesign__image--project1"
+        //     />
+        //   </div>
+        //   <div className="weDesign">
+        //     <img
+        //       src="5.jpg"
+        //       alt="Eleni"
+        //       className="wedDesign__image5--project1"
+        //     />
+        //   </div>
+        //   <div className="weDesign">
+        //     <img
+        //       src="6.jpg"
+        //       alt="Eleni"
+        //       className="wedDesign__image5--project1"
+        //     />
+        //   </div>
+        //   <hr />
+        //   <div className="weDesign">
+        //     <img
+        //       src="4.jpg"
+        //       alt="Eleni"
+        //       className="wedDesign__image5--project1"
+        //     />
+        //   </div>
+        //   <hr />
+        //   <div className="weDesign">
+        //     <h3>Kurious Koala KK</h3>
+        //     <div className="webDesign__description">
+        //       The creation of this Kurious Koala game is the result of love for
+        //       design, coding and children.
+        //     </div>
+        //     <img
+        //       src="7.jpg"
+        //       alt="Eleni"
+        //       className="wedDesign__image5--project1"
+        //     />
+        //     <img
+        //       src="8.jpg"
+        //       alt="Eleni"
+        //       className="wedDesign__image5--project1"
+        //     />
+        //     <img
+        //       src="9.jpg"
+        //       alt="Eleni"
+        //       className="wedDesign__image5--project1"
+        //     />
+        //   </div>
+        // </div>
+        <div className="projects-grid">
           {/*Project #1*/}
-          <img src="1.jpg" alt="Eleni" className="wedDesign__image--project1" />
-          <h4>The Challenge:</h4>
-          <div className='webDesign__description'>
-          By this App, the user has the <br/> opportunity to purchase a variety of products.
-          </div>
-          <br/>
-          <img src="3.jpg" alt="Eleni" className="wedDesign__image--project1" />
-          <div className='webDesign__details'>
-            <h4>Every element made with love</h4>
-          <img src="2.jpg" alt="Eleni" className="wedDesign__image--project1" />
-          </div>
-         <div className="weDesign">
-         <img src="5.jpg" alt="Eleni" className="wedDesign__image5--project1" />
-         </div>
-         <div className="weDesign">
-         <img src="6.jpg" alt="Eleni" className="wedDesign__image5--project1" />
-         </div>
-         <hr/>
-         <div className="weDesign">
-         <img src="4.jpg" alt="Eleni" className="wedDesign__image5--project1" />
-         </div>
-         <hr/>
-         <div className="weDesign">
-         <h3>Kurious Koala KK</h3>
-         <div className='webDesign__description'>The creation of this Kurious Koala game is the result of love for design, coding and children.</div>
-         <img src="7.jpg" alt="Eleni" className="wedDesign__image5--project1" />
-         <img src="8.jpg" alt="Eleni" className="wedDesign__image5--project1" />
-         <img src="9.jpg" alt="Eleni" className="wedDesign__image5--project1" />
-         </div>
+          <Card
+            shadow={5}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
+          >
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                fontWeight: 'bold',
+                paddingRight: '20px',
+                paddingLeft: '20px',
+              }}
+            >
+              Website - Devity Company
+            </CardTitle>
+            <img src="10.jpg" alt="Covid19" className="project-image" />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              My role:
+            </CardText>
+            UX/UI Designer
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+              }}
+            >
+              Challenge:
+            </CardText>
+            The customer Devity is a start-up who wants help with the design of
+            their website. The company has with new technology developed a
+            serum, called protech, which is applied to mobile screens and makes
+            the phone is both shockproof and unbreakable. At a meeting, Devity
+            has developed the following keywords for the company:
+            <br />● Trust ● Innovation
+            <br />● Customizable ● Modern
+            <br />● Customer satisfaction
+            <br />● Durable
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Tools:
+            </CardText>
+            Figma
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Duration:
+            </CardText>
+            3 days
+            <img
+              src="preparation.jpg"
+              alt="Covid19"
+              className="project-image1"
+            />
+            <CardActions>
+              {/*link for Figma*/}
+              <a
+                href="https://www.figma.com/file/PTpwo4WbbrbOxIBrfnb6Vq/Portfolio-Resource-(Copy)?node-id=736%3A13233"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  FIGMA <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+              {/*link for Wireframe*/}
+              <a
+                href="https://www.figma.com/file/LxQPGEkD3dTNxXbSHKB2Gq/Wireframe-Arbetsprov"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  WIREFRAME <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+              {/*link for User Flow*/}
+              <a
+                href="https://www.figma.com/file/Vox5uyxDb7HrBAyZWQVwEa/User-Flow-Arbetsprov"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  USER FLOW <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
+          {/*Project #2*/}
+          <Card
+            shadow={5}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
+          >
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                fontWeight: 'bold',
+                paddingRight: '20px',
+                paddingLeft: '20px',
+              }}
+            >
+              Food Ordering App
+            </CardTitle>
+            <img src="11.jpg" alt="Covid19" className="project-image" />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              My role:
+            </CardText>
+            UX/UI Designer
+            {/* <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+              }}
+            >
+              Challenge:
+            </CardText>
+            Vuejs, Tailwind */}
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Tools:
+            </CardText>
+            Figma
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Duration:
+            </CardText>
+            2 days
+            <img src="14.jpg" alt="Covid19" className="project-image" />
+            <CardActions>
+              {/*link for Figma*/}
+              <a
+                href="https://www.figma.com/file/8ZYE7ycEUwHouDSxwpE7U4/Food-Ordering-App"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  FIGMA <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
+          {/*Project #3*/}
+          <Card
+            shadow={5}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
+          >
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                fontWeight: 'bold',
+                paddingRight: '20px',
+                paddingLeft: '20px',
+              }}
+            >
+              Welcome to my App
+            </CardTitle>
+            <img src="1.jpg" alt="Covid19" className="project-image" />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              My role:
+            </CardText>
+            UX/UI Designer
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+              }}
+            >
+              Challenge:
+            </CardText>
+            When I started working on this project my goal was to create an easy
+            to use and visually appealing online store. I believe that this app
+            has been successful in completing the goal as it has it's own
+            distinctive style but also offers a simple user journey for
+            customers to buy products.
+            <br />
+            Every element made with love!
+            <br />
+            <br />
+            <img
+              src="3.jpg"
+              alt="Eleni"
+              className="wedDesign__image--project1"
+            />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Tools:
+            </CardText>
+            Figma
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Duration:
+            </CardText>
+            2 weeks
+            <img src="2.jpg" alt="Covid19" className="project-image" />
+            <CardActions>
+              {/*link for Figma*/}
+              <a
+                href="https://www.figma.com/file/PTpwo4WbbrbOxIBrfnb6Vq/Portfolio-Resource-(Copy)?node-id=736%3A13233"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  FIGMA <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
         </div>
       )
     }

@@ -91,7 +91,7 @@
 }
 
 .developer {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .banner-text .skills {
@@ -108,6 +108,15 @@
   align: center;
   border-radius: 10%;
   width: 200px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.project-image1 {
+  margin-left: 0px;
+  align: center;
+  border-radius: 10%;
+  width: 250px;
   height: 200px;
   margin-top: 10px;
 }
@@ -144,6 +153,11 @@
   margin-bottom: 70px;
   border-radius: 5%;
   box-shadow: 10px 10px 10px grey;
+}
+
+.webDesign__description {
+  font-size: 15px;
+  font-family: "Segoe UI";
 }
 
 /*utbildning page css*/
@@ -196,20 +210,20 @@
 }
 
 .title {
-  padding-top: 1em;
+  padding-top: 3em;
   font-size: 50px;
 }
 
-.title h2 {
+/* .title h2 {
   font-family: "Dancing Script", cursive;
   color: black;
   font-weight: bold;
-}
+} */
 
 .title p {
   font-size: 20px;
   display: left;
-  padding-top: 15px;
+  margin-top: 20px;
 }
 
 .title i {
@@ -344,12 +358,28 @@
     font-size: 20px;
   }
 
-  .title h2 {
+  /* .title h2 {
     font-size: 30px;
+  } */
+  .title p{
+    font-size: 12px;
+    display: left;
+    margin-top: 60px;
+    padding-top: 5px;
+    font-weight: bold;
+    padding-top: 5px;
+  }
+  
+  .title span{
+    font-size: 10px;
+    display: left;
+    margin-top: 10px;
+    padding-top: 15px;
+    font-weight: bold;
   }
 
-  .contactInfo {
-    font-size: 10px;
+  .title i {
+    font-size: 15px;
   }
 
   .språk {
