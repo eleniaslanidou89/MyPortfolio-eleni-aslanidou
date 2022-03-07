@@ -13,6 +13,7 @@
     "react-scripts": "3.3.0",
     "surge": "^0.23.0"
   },
+  "homepage": "eleniaslanidou89.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
