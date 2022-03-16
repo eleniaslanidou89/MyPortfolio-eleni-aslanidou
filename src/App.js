@@ -144,17 +144,6 @@ class App extends Component {
                   </Link>
                   <Link
                     onClick={() => this.hideToggle()}
-                    to="/contact"
-                    style={{
-                      color: 'black',
-                      fontSize: '15px',
-                      fontFamily: 'Sriracha',
-                    }}
-                  >
-                    Contact
-                  </Link>
-                  <Link
-                    onClick={() => this.hideToggle()}
                     to="/projects"
                     style={{
                       color: 'black',
@@ -163,6 +152,17 @@ class App extends Component {
                     }}
                   >
                     Projects
+                  </Link>
+                  <Link
+                    onClick={() => this.hideToggle()}
+                    to="/contact"
+                    style={{
+                      color: 'black',
+                      fontSize: '15px',
+                      fontFamily: 'Sriracha',
+                    }}
+                  >
+                    About
                   </Link>
                 </Navigation>
               </Drawer>

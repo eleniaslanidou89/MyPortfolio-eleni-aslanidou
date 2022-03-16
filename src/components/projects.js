@@ -58,8 +58,7 @@ class Projects extends Component {
             >
               Description:
             </CardText>
-            An app which is created with Vuejs and Tailwind. The website is
-            fully responsive.
+            An app which is created with Vuejs and Tailwind. Fully responsive.
             <CardText
               style={{
                 fontSize: '20px',
@@ -504,7 +503,7 @@ class Projects extends Component {
             >
               Description:
             </CardText>
-            A To do App which reminds what products should the user buy.
+            ToDo App which reminds what products should the user buy.
             <CardText
               style={{
                 fontSize: '20px',
@@ -685,7 +684,7 @@ class Projects extends Component {
             >
               Tools:
             </CardText>
-            Figma
+           Figma
             <CardText
               style={{
                 fontSize: '20px',
@@ -705,12 +704,12 @@ class Projects extends Component {
             <CardActions>
               {/*link for Figma*/}
               <a
-                href="https://www.figma.com/file/PTpwo4WbbrbOxIBrfnb6Vq/Portfolio-Resource-(Copy)?node-id=736%3A13233"
+                href="https://www.figma.com/file/wNaPilNv9mjenr5DjW0eHT/Website-Home-Page---Arbetsprov?node-id=0%3A1"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <Button colored>
-                  FIGMA <i class="fas fa-link" aria-hidden="true" />
+                PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
                 </Button>
               </a>
               {/*link for Wireframe*/}
@@ -810,7 +809,7 @@ class Projects extends Component {
                 target="_blank"
               >
                 <Button colored>
-                  FIGMA <i class="fas fa-link" aria-hidden="true" />
+                PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
                 </Button>
               </a>
             </CardActions>
@@ -903,7 +902,7 @@ class Projects extends Component {
                 target="_blank"
               >
                 <Button colored>
-                  FIGMA <i class="fas fa-link" aria-hidden="true" />
+                PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
                 </Button>
               </a>
             </CardActions>
@@ -922,10 +921,10 @@ class Projects extends Component {
             ripple
           >
             <Tab style={{ fontFamily: 'Segoe UI', color: 'black' }}>
-              Front-end Projects
+              Frontend Projects
             </Tab>
             <Tab style={{ fontFamily: 'Segoe UI', color: 'black' }}>
-              Web Design Projects
+              Design Projects
             </Tab>
           </Tabs>
         </Layout>
