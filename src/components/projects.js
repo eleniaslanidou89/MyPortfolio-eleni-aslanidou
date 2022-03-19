@@ -622,6 +622,90 @@ class Projects extends Component {
         //   </div>
         // </div>
         <div className="projects-grid">
+             {/*Project #0*/}
+             <Card
+            shadow={5}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
+          >
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                fontWeight: 'bold',
+                paddingRight: '20px',
+                paddingLeft: '20px',
+              }}
+            >
+              Animal Wiki App
+            </CardTitle>
+            <img src="animal.jpg" alt="animal" className="project-image" />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              My role:
+            </CardText>
+            UX/UI Designer
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+              }}
+            >
+              Challenge:
+            </CardText>
+            
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Tools:
+            </CardText>
+           Figma
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Duration:
+            </CardText>
+            1 day
+            <img
+              src="animalWiki.jpg"
+              alt="animalWiki"
+              className="project-image1"
+            />
+            <CardActions>
+              {/*link for Figma*/}
+              <a
+                href="https://www.figma.com/file/YDsM9TgJQZERrmq4BjpPww/Wiki-Animal?node-id=0%3A1"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
           {/*Project #1*/}
           <Card
             shadow={5}
