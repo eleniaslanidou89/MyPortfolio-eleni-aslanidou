@@ -655,17 +655,7 @@ class Projects extends Component {
             >
               My role:
             </CardText>
-            UX/UI Designer
-            <CardText
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                paddingLeft: '5px',
-              }}
-            >
-              Challenge:
-            </CardText>
-            
+            UX/UI Designer  
             <CardText
               style={{
                 fontSize: '20px',
