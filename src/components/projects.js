@@ -642,7 +642,7 @@ class Projects extends Component {
                 paddingLeft: '20px',
               }}
             >
-              Animal Wiki App
+              Animal Wiki - App
             </CardTitle>
             <img src="animal.jpg" alt="animal" className="project-image" />
             <CardText
@@ -698,6 +698,76 @@ class Projects extends Component {
           </Card>
            {/*Project #1*/}
            <Card
+            shadow={5}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
+          >
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                fontWeight: 'bold',
+                paddingRight: '20px',
+                paddingLeft: '20px',
+              }}
+            >
+              3D Design - App
+            </CardTitle>
+            <img src="3Ddesign.jpg" alt="3D-design" className="project-image" />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              My role:
+            </CardText>
+            UX/UI Designer
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Tools:
+            </CardText>
+           Figma
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Duration:
+            </CardText>
+            1 day
+            <img src="3Ddesign2.jpg" alt="3D-design" className="project-image" />
+            <CardActions>
+              {/*link for Figma*/}
+              <a
+                href="https://www.figma.com/file/eWiPDiVTx0KrKE7avqlxl8/3D-Design?node-id=0%3A1"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
+          {/*Project #2*/}
+          <Card
             shadow={5}
             style={{
               minWidth: '500',
@@ -808,7 +878,7 @@ class Projects extends Component {
               </a>
             </CardActions>
           </Card>
-           {/*Project #2*/}
+           {/*Project #3*/}
            <Card
             shadow={5}
             style={{
@@ -864,6 +934,7 @@ class Projects extends Component {
               Duration:
             </CardText>
             2 hours
+            <img src="elenisblog4.jpg" alt="blog" className="project-image" />
             <CardActions>
               {/*link for Figma*/}
               <a
@@ -878,7 +949,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
          
-          {/*Project #3*/}
+          {/*Project #4*/}
           <Card
             shadow={5}
             style={{
@@ -958,7 +1029,7 @@ class Projects extends Component {
               </a>
             </CardActions>
           </Card>
-          {/*Project #4*/}
+          {/*Project #5*/}
           <Card
             shadow={5}
             style={{
