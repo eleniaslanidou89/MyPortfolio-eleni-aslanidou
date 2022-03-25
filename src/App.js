@@ -31,10 +31,6 @@ function isSearched(searchTerm) {
   }
 }
 
-// API KEY: APPID=f8384513fad5f91ea04d07a2cbf916ec
-const API =
-  'https://api.openweathermap.org/data/2.5/weather?q=stockholm,se&APPID=f8384513fad5f91ea04d07a2cbf916ec&units=metric'
-
 class App extends Component {
   constructor(props) {
     super(props)
@@ -80,27 +76,17 @@ class App extends Component {
                     style={{
                       textDecoration: 'bold',
                       color: 'black',
-                      fontFamily: 'Dancing Script, cursive',
+                      fontFamily: 'Patrick Hand, cursive',
                       fontSize: '25px',
                     }}
                     to="/"
-                  >
+                  > 
                     Eleni Aslanidou
                   </Link>
                 }
                 scroll
               >
                 <Navigation>
-                  {/* <Link
-                    to="/"
-                    style={{
-                      fontSize: '20px',
-                      color: 'black',
-                      fontFamily: 'Sriracha',
-                    }}
-                  >
-                    Home
-                  </Link> */}
                   <Link
                     to="/projects"
                     style={{
@@ -119,14 +105,11 @@ class App extends Component {
                       fontFamily: 'Sriracha',
                     }}
                   >
-                    About
+                   Moto
                   </Link>
 
                   <div className="page-content" />
                 </Navigation>
-                {/* <div className="temperature">
-                  Temperature in Stockholm: {temperature || '?'}°C
-                </div> */}
               </Header>
               <Drawer>
                 <Navigation>
@@ -162,7 +145,7 @@ class App extends Component {
                       fontFamily: 'Sriracha',
                     }}
                   >
-                    About
+                  Moto
                   </Link>
                 </Navigation>
               </Drawer>

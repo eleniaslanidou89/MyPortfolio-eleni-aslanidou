@@ -18,7 +18,7 @@ class Projects extends Component {
     this.state = { activeTab: 0 }
   }
   toggleCategories() {
-    if (this.state.activeTab === 0) {
+    if (this.state.activeTab === 1) {
       return (
         <div className="projects-grid">
           {/*Project #1*/}
@@ -44,7 +44,7 @@ class Projects extends Component {
               Covid19 Tracker
             </CardTitle>
             <img
-              src="covidTracker.PNG"
+              src="covid.svg"
               alt="Covid19"
               className="project-image"
             />
@@ -117,7 +117,7 @@ class Projects extends Component {
             >
               Eleni's Blog
             </CardTitle>
-            <img src="Elenis-Blog.PNG" alt="Blog" className="project-image" />
+            <img src="blog.svg" alt="Blog" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
@@ -189,7 +189,7 @@ class Projects extends Component {
               Weather App
             </CardTitle>
             <img
-              src="weather-app.PNG"
+              src="weather.svg"
               alt="WeatherApp"
               className="project-image"
             />
@@ -265,7 +265,7 @@ class Projects extends Component {
               Bookstore
             </CardTitle>
             <img
-              src="Bookstore.PNG"
+              src="books.svg"
               alt="Bookstore"
               className="project-image"
             />
@@ -340,7 +340,7 @@ class Projects extends Component {
               Calculator
             </CardTitle>
             <img
-              src="Calculator.PNG"
+              src="calculator.svg"
               alt="calculator"
               className="project-image"
             />
@@ -414,7 +414,7 @@ class Projects extends Component {
               E-Commerce
             </CardTitle>
             <img
-              src="E-commerce.PNG"
+              src="shopping.svg"
               alt="commerce"
               className="project-image"
             />
@@ -489,7 +489,7 @@ class Projects extends Component {
               Remember To Buy
             </CardTitle>
             <img
-              src="RememberToBuy.PNG"
+              src="list.svg"
               alt="ToDoList"
               className="project-image"
             />
@@ -541,89 +541,15 @@ class Projects extends Component {
           </Card>
         </div>
       )
-    } else if (this.state.activeTab === 1) {
+    } else if (this.state.activeTab === 0) {
       return (
-        // <div className="weDesign">
-        //   <h3>Welcome to my App</h3>
-        //   {/*Project #1*/}
-        //   <img src="1.jpg" alt="Eleni" className="wedDesign__image--project1" />
-        //   <div className="webDesign__description">
-        //     <ul>
-        //       <li>My role: UX/UI Designer</li>
-        //       <li>Challenge:</li>
-        //       <li>Tools: Figma</li>
-        //       <li>Duration:2 weeks</li>
-        //       <li>Prototype:</li>
-        //     </ul>
-        //   </div>
-        //   <h4>The Goal:</h4>
-        //   <div className="webDesign__description">
-        //     When I started working on this project my goal was to create <br />{' '}
-        //     an easy to use and visually appealing online store.
-        //     <br />
-        //     I believe that this app has been successful in completing the goal
-        //     as it has <br /> it's own distinctive style but also offers a simple
-        //     user journey for customers to buy products.
-        //   </div>
-        //   <br />
-        //   <img src="3.jpg" alt="Eleni" className="wedDesign__image--project1" />
-        //   <div className="webDesign__details">
-        //     <h4>Every element made with love</h4>
-        //     <img
-        //       src="2.jpg"
-        //       alt="Eleni"
-        //       className="wedDesign__image--project1"
-        //     />
-        //   </div>
-        //   <div className="weDesign">
-        //     <img
-        //       src="5.jpg"
-        //       alt="Eleni"
-        //       className="wedDesign__image5--project1"
-        //     />
-        //   </div>
-        //   <div className="weDesign">
-        //     <img
-        //       src="6.jpg"
-        //       alt="Eleni"
-        //       className="wedDesign__image5--project1"
-        //     />
-        //   </div>
-        //   <hr />
-        //   <div className="weDesign">
-        //     <img
-        //       src="4.jpg"
-        //       alt="Eleni"
-        //       className="wedDesign__image5--project1"
-        //     />
-        //   </div>
-        //   <hr />
-        //   <div className="weDesign">
-        //     <h3>Kurious Koala KK</h3>
-        //     <div className="webDesign__description">
-        //       The creation of this Kurious Koala game is the result of love for
-        //       design, coding and children.
-        //     </div>
-        //     <img
-        //       src="7.jpg"
-        //       alt="Eleni"
-        //       className="wedDesign__image5--project1"
-        //     />
-        //     <img
-        //       src="8.jpg"
-        //       alt="Eleni"
-        //       className="wedDesign__image5--project1"
-        //     />
-        //     <img
-        //       src="9.jpg"
-        //       alt="Eleni"
-        //       className="wedDesign__image5--project1"
-        //     />
-        //   </div>
-        // </div>
         <div className="projects-grid">
-             {/*Project #0*/}
-             <Card
+          {/* style={{
+          background:
+            'url(https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)center / cover',
+        }} */}
+          {/*Project #1*/}
+          <Card
             shadow={5}
             style={{
               minWidth: '500',
@@ -642,9 +568,9 @@ class Projects extends Component {
                 paddingLeft: '20px',
               }}
             >
-              Animal Wiki - App
+              Gets Things Done - ToDo App
             </CardTitle>
-            <img src="animal.jpg" alt="animal" className="project-image" />
+            <img src="toDoApp.svg" alt="Covid19" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
@@ -653,9 +579,10 @@ class Projects extends Component {
                 textDecoration: 'underline',
               }}
             >
-              My role:
+              Description:
             </CardText>
-            UX/UI Designer  
+            Modern Mobile App in Figma. Illustartions are taken from 'unDraw'
+            website.
             <CardText
               style={{
                 fontSize: '20px',
@@ -666,102 +593,16 @@ class Projects extends Component {
             >
               Tools:
             </CardText>
-           Figma
-            <CardText
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                paddingLeft: '5px',
-                textDecoration: 'underline',
-              }}
-            >
-              Duration:
-            </CardText>
-            1 day
-            <img
-              src="animalWiki.jpg"
-              alt="animalWiki"
-              className="project-image1"
-            />
+            Figma
             <CardActions>
               {/*link for Figma*/}
               <a
-                href="https://www.figma.com/file/YDsM9TgJQZERrmq4BjpPww/Wiki-Animal?node-id=0%3A1"
+                href="https://www.figma.com/file/cicxttFwhMftRConpP0ozH/Mobile-Design?node-id=11%3A65"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <Button colored>
-                PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
-                </Button>
-              </a>
-            </CardActions>
-          </Card>
-           {/*Project #1*/}
-           <Card
-            shadow={5}
-            style={{
-              minWidth: '500',
-              marginTop: '80px',
-              marginLeft: '50px',
-              padding: '50px',
-              fontFamily: 'Segoe UI',
-            }}
-          >
-            <CardTitle
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                fontWeight: 'bold',
-                paddingRight: '20px',
-                paddingLeft: '20px',
-              }}
-            >
-              3D Design - App
-            </CardTitle>
-            <img src="3Ddesign.jpg" alt="3D-design" className="project-image" />
-            <CardText
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                paddingLeft: '5px',
-                textDecoration: 'underline',
-              }}
-            >
-              My role:
-            </CardText>
-            UX/UI Designer
-            <CardText
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                paddingLeft: '5px',
-                textDecoration: 'underline',
-              }}
-            >
-              Tools:
-            </CardText>
-           Figma
-            <CardText
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                paddingLeft: '5px',
-                textDecoration: 'underline',
-              }}
-            >
-              Duration:
-            </CardText>
-            1 day
-            <img src="3Ddesign2.jpg" alt="3D-design" className="project-image" />
-            <CardActions>
-              {/*link for Figma*/}
-              <a
-                href="https://www.figma.com/file/eWiPDiVTx0KrKE7avqlxl8/3D-Design?node-id=0%3A1"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <Button colored>
-                PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
+                  PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
                 </Button>
               </a>
             </CardActions>
@@ -786,9 +627,131 @@ class Projects extends Component {
                 paddingLeft: '20px',
               }}
             >
+              Food Ordering App
+            </CardTitle>
+            <img src="food.svg" alt="Covid19" className="project-image" />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Description:
+            </CardText>
+            Do you like tasty food? Let's dive into the prototyping exploration
+            in this Modern Mobile App.
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Tools:
+            </CardText>
+            <CardActions>
+              {/*link for Figma*/}
+              <a
+                href="https://www.figma.com/file/8ZYE7ycEUwHouDSxwpE7U4/Food-Ordering-App"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
+          {/*Project #3*/}
+          <Card
+            shadow={5}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
+          >
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                fontWeight: 'bold',
+                paddingRight: '20px',
+                paddingLeft: '20px',
+              }}
+            >
+              Welcome to my App
+            </CardTitle>
+            <img src="app.svg" alt="Covid19" className="project-image" />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Description:
+            </CardText>
+            When I started working on this project my goal was to create an easy
+            to use and visually appealing online store. I believe that this app
+            has been successful in completing the goal as it has it's own
+            distinctive style but also offers a simple user journey for
+            customers to buy products.
+            <br />
+            Every element made with love!
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Tools:
+            </CardText>
+            Figma
+            <CardActions>
+              {/*link for Figma*/}
+              <a
+                href="https://www.figma.com/file/PTpwo4WbbrbOxIBrfnb6Vq/Portfolio-Resource-(Copy)?node-id=736%3A13233"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
+          {/*Project #4*/}
+          <Card
+            shadow={5}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
+          >
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                fontWeight: 'bold',
+                paddingRight: '20px',
+                paddingLeft: '20px',
+              }}
+            >
               Website - Devity Company
             </CardTitle>
-            <img src="10.jpg" alt="Covid19" className="project-image" />
+            <img src="website.svg" alt="Covid19" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
@@ -805,9 +768,10 @@ class Projects extends Component {
                 fontSize: '20px',
                 fontFamily: 'Segoe UI',
                 paddingLeft: '5px',
+                textDecoration: 'underline',
               }}
             >
-              Challenge:
+              Description:
             </CardText>
             The customer Devity is a start-up who wants help with the design of
             their website. The company has with new technology developed a
@@ -828,23 +792,7 @@ class Projects extends Component {
             >
               Tools:
             </CardText>
-           Figma
-            <CardText
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                paddingLeft: '5px',
-                textDecoration: 'underline',
-              }}
-            >
-              Duration:
-            </CardText>
-            3 days
-            <img
-              src="preparation.jpg"
-              alt="Covid19"
-              className="project-image1"
-            />
+            Figma
             <CardActions>
               {/*link for Figma*/}
               <a
@@ -853,7 +801,7 @@ class Projects extends Component {
                 target="_blank"
               >
                 <Button colored>
-                PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
+                  PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
                 </Button>
               </a>
               {/*link for Wireframe*/}
@@ -878,157 +826,6 @@ class Projects extends Component {
               </a>
             </CardActions>
           </Card>
-           {/*Project #3*/}
-           <Card
-            shadow={5}
-            style={{
-              minWidth: '500',
-              marginTop: '80px',
-              marginLeft: '50px',
-              padding: '50px',
-              fontFamily: 'Segoe UI',
-            }}
-          >
-            <CardTitle
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                fontWeight: 'bold',
-                paddingRight: '20px',
-                paddingLeft: '20px',
-              }}
-            >
-              Eleni's Website
-            </CardTitle>
-            <img src="ElenisBlog.jpg" alt="Eleni" className="project-image" />
-            <CardText
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                paddingLeft: '5px',
-                textDecoration: 'underline',
-              }}
-            >
-              My role:
-            </CardText>
-            UX/UI Designer  
-            <CardText
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                paddingLeft: '5px',
-                textDecoration: 'underline',
-              }}
-            >
-              Tools:
-            </CardText>
-           Figma
-            <CardText
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                paddingLeft: '5px',
-                textDecoration: 'underline',
-              }}
-            >
-              Duration:
-            </CardText>
-            2 hours
-            <img src="elenisblog4.jpg" alt="blog" className="project-image" />
-            <CardActions>
-              {/*link for Figma*/}
-              <a
-                href="https://www.figma.com/file/MwCBFWM9wEQsDylyy9BaOA/Eleni's-Blog?node-id=0%3A1"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <Button colored>
-                PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
-                </Button>
-              </a>
-            </CardActions>
-          </Card>
-         
-          {/*Project #4*/}
-          <Card
-            shadow={5}
-            style={{
-              minWidth: '500',
-              marginTop: '80px',
-              marginLeft: '50px',
-              padding: '50px',
-              fontFamily: 'Segoe UI',
-            }}
-          >
-            <CardTitle
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                fontWeight: 'bold',
-                paddingRight: '20px',
-                paddingLeft: '20px',
-              }}
-            >
-              Food Ordering App
-            </CardTitle>
-            <img src="11.jpg" alt="Covid19" className="project-image" />
-            <CardText
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                paddingLeft: '5px',
-                textDecoration: 'underline',
-              }}
-            >
-              My role:
-            </CardText>
-            UX/UI Designer
-            {/* <CardText
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                paddingLeft: '5px',
-              }}
-            >
-              Challenge:
-            </CardText>
-            Vuejs, Tailwind */}
-            <CardText
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                paddingLeft: '5px',
-                textDecoration: 'underline',
-              }}
-            >
-              Tools:
-            </CardText>
-            Figma
-            <CardText
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                paddingLeft: '5px',
-                textDecoration: 'underline',
-              }}
-            >
-              Duration:
-            </CardText>
-            2 days
-            <img src="14.jpg" alt="Covid19" className="project-image" />
-            <CardActions>
-              {/*link for Figma*/}
-              <a
-                href="https://www.figma.com/file/8ZYE7ycEUwHouDSxwpE7U4/Food-Ordering-App"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <Button colored>
-                PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
-                </Button>
-              </a>
-            </CardActions>
-          </Card>
           {/*Project #5*/}
           <Card
             shadow={5}
@@ -1049,9 +846,9 @@ class Projects extends Component {
                 paddingLeft: '20px',
               }}
             >
-              Welcome to my App
+              Animal Wiki - App
             </CardTitle>
-            <img src="1.jpg" alt="Covid19" className="project-image" />
+            <img src="animal.svg" alt="animal" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
@@ -1060,32 +857,11 @@ class Projects extends Component {
                 textDecoration: 'underline',
               }}
             >
-              My role:
+              Description:
             </CardText>
-            UX/UI Designer
-            <CardText
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                paddingLeft: '5px',
-              }}
-            >
-              Challenge:
-            </CardText>
-            When I started working on this project my goal was to create an easy
-            to use and visually appealing online store. I believe that this app
-            has been successful in completing the goal as it has it's own
-            distinctive style but also offers a simple user journey for
-            customers to buy products.
-            <br />
-            Every element made with love!
-            <br />
-            <br />
-            <img
-              src="3.jpg"
-              alt="Eleni"
-              className="wedDesign__image--project1"
-            />
+            I love animals! That's why I chose to learn more methods in Figma by
+            creating this App. Images, colors combined with detailed text makes
+            this Modern App easy to use it.
             <CardText
               style={{
                 fontSize: '20px',
@@ -1097,6 +873,42 @@ class Projects extends Component {
               Tools:
             </CardText>
             Figma
+            <CardActions>
+              {/*link for Figma*/}
+              <a
+                href="https://www.figma.com/file/YDsM9TgJQZERrmq4BjpPww/Wiki-Animal?node-id=0%3A1"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
+          {/*Project #6*/}
+          <Card
+            shadow={5}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
+          >
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                fontWeight: 'bold',
+                paddingRight: '20px',
+                paddingLeft: '20px',
+              }}
+            >
+              3D Design - App
+            </CardTitle>
+            <img src="design.svg" alt="3D-design" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
@@ -1105,19 +917,92 @@ class Projects extends Component {
                 textDecoration: 'underline',
               }}
             >
-              Duration:
+              Description:
             </CardText>
-            2 weeks
-            <img src="2.jpg" alt="Covid19" className="project-image" />
+            This 3D App is totally an amazing experience. By 3D illustrations
+            which I took from icons8.com the app has more lively appearance.
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Tools:
+            </CardText>
+            Figma
             <CardActions>
               {/*link for Figma*/}
               <a
-                href="https://www.figma.com/file/PTpwo4WbbrbOxIBrfnb6Vq/Portfolio-Resource-(Copy)?node-id=736%3A13233"
+                href="https://www.figma.com/file/eWiPDiVTx0KrKE7avqlxl8/3D-Design?node-id=0%3A1"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <Button colored>
-                PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
+                  PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
+          {/*Project #7*/}
+          <Card
+            shadow={5}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
+          >
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                fontWeight: 'bold',
+                paddingRight: '20px',
+                paddingLeft: '20px',
+              }}
+            >
+              Eleni's Website
+            </CardTitle>
+            <img
+              src="websiteillustration.svg"
+              alt="Eleni"
+              className="project-image"
+            />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Description:
+            </CardText>
+            On this prototyping I worked on the home page of my website.
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Tools:
+            </CardText>
+            Figma
+            <CardActions>
+              {/*link for Figma*/}
+              <a
+                href="https://www.figma.com/file/MwCBFWM9wEQsDylyy9BaOA/Eleni's-Blog?node-id=0%3A1"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  PROTOTYPING <i class="fas fa-link" aria-hidden="true" />
                 </Button>
               </a>
             </CardActions>
@@ -1136,10 +1021,10 @@ class Projects extends Component {
             ripple
           >
             <Tab style={{ fontFamily: 'Segoe UI', color: 'black' }}>
-              Frontend Projects
+              Design
             </Tab>
             <Tab style={{ fontFamily: 'Segoe UI', color: 'black' }}>
-              Design Projects
+             Development
             </Tab>
           </Tabs>
         </Layout>

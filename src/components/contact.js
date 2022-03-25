@@ -5,30 +5,23 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact-body">
-        <Layout
+        {/* <img src="me.jpg" alt="Eleni" className="image" /> */}
+        {/* <Layout
           style={{
             background:
-              'url(https://images.unsplash.com/photo-1543157145-f78c636d023d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80)center / cover',
+              'url(https://images.pexels.com/photos/1262304/pexels-photo-1262304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)center / cover',
           }}
-        >
-          <Grid className="contact-grid">
-            <Cell className="title" col={6}>
-              <p>
-                Hello! My name is Eleni Aslanidou. I am Web & Mobile Designer and Front-end Developer.
-                As a person I have great energy and I am open minded. I am
-                really good at planning, prioritizing and presenting my work. I have the "of course I
-                can" attitude because I am not afraid of new challenges.  
-                <span>💭➕ Thinking Positive</span>
-                <span>🧠 Passionate learner</span>
-                <span>🧩 Loves collaborating and
-                working in a team </span>
-              </p>
-              <hr/>
-              <i className="fa fa-envelope-open" aria-hidden="true" />
-              <p className="contactInfo">helena.aslanidou@gmail.com</p>
-            </Cell>
-          </Grid>
-        </Layout>
+        > */}
+        <Grid className="contact-grid">
+          <Cell className="moto" col={6}>
+            <p>
+              "Shoot for the moon. Even if you miss it you will land among the
+              stars." <span>Les Brown</span>
+            </p>
+            <img src="moon.jpg" alt="moon" className="moon" />
+          </Cell>
+        </Grid>
+        {/* </Layout> */}
       </div>
     )
   }
