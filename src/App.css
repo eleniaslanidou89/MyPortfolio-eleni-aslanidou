@@ -207,6 +207,7 @@
   height: 700px;
   font-family: "Dancing Script", cursive;
 }
+
 .contact-grid p {
   font-size: 1rem;
   font-family: "Segoe UI";
@@ -217,7 +218,7 @@
 }
 
 .title {
-  padding-top: 4em;
+  padding-top: 2em;
   font-size: 50px;
 }
 
@@ -364,7 +365,7 @@
   .title p{
     font-size: 14px;
     display: left;
-    margin-top: 60px;
+    margin-top: 80px;
     padding-top: 5px;
     padding-top: 5px;
   }

@@ -13,8 +13,7 @@ class Landing extends Component {
         >
           <Grid className="contact-grid">
              <Cell className="title" col={6}>
-              <h3>Eleni Aslanidou </h3>
-              <h4 className="">Web & Mobile Designer UX/UI</h4>
+              <h5 className="">Web & Mobile Designer UX/UI-Frontend Developer</h5>
               <p>
                 Hello! My name is Eleni Aslanidou. I am Web & Mobile Designer. I have also a Bachelor degree in
 IT Communication Engineering(Greece) and Frontend Development degree from KYH(Sweden). As a person I have great energy and I
