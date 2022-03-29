@@ -32,7 +32,7 @@ class Projects extends Component {
               fontFamily: 'Segoe UI',
             }}
           >
-            <CardTitle
+            <CardText
               style={{
                 fontSize: '20px',
                 fontFamily: 'Segoe UI',
@@ -42,12 +42,8 @@ class Projects extends Component {
               }}
             >
               Covid19 Tracker
-            </CardTitle>
-            <img
-              src="covid.svg"
-              alt="Covid19"
-              className="project-image"
-            />
+            </CardText>
+            <img src="covid.svg" alt="Covid19" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
@@ -94,7 +90,6 @@ class Projects extends Component {
               </a>
             </CardActions>
           </Card>
-
           {/*Project #2*/}
           <Card
             shadow={5}
@@ -106,17 +101,17 @@ class Projects extends Component {
               fontFamily: 'Segoe UI',
             }}
           >
-            <CardTitle
+            <CardText
               style={{
                 fontSize: '20px',
                 fontFamily: 'Segoe UI',
                 fontWeight: 'bold',
-                paddingRight: '50px',
-                paddingLeft: '50px',
+                paddingRight: '20px',
+                paddingLeft: '0px',
               }}
             >
               Eleni's Blog
-            </CardTitle>
+            </CardText>
             <img src="blog.svg" alt="Blog" className="project-image" />
             <CardText
               style={{
@@ -177,22 +172,18 @@ class Projects extends Component {
               fontFamily: 'Segoe UI',
             }}
           >
-            <CardTitle
+            <CardText
               style={{
                 fontSize: '20px',
                 fontFamily: 'Segoe UI',
                 fontWeight: 'bold',
                 paddingRight: '40px',
-                paddingLeft: '40px',
+                paddingLeft: '0px',
               }}
             >
               Weather App
-            </CardTitle>
-            <img
-              src="weather.svg"
-              alt="WeatherApp"
-              className="project-image"
-            />
+            </CardText>
+            <img src="weather.svg" alt="WeatherApp" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
@@ -253,22 +244,18 @@ class Projects extends Component {
               fontFamily: 'Segoe UI',
             }}
           >
-            <CardTitle
+            <CardText
               style={{
                 fontSize: '20px',
                 fontFamily: 'Segoe UI',
                 fontWeight: 'bold',
                 paddingRight: '40px',
-                paddingLeft: '60px',
+                paddingLeft: '0px',
               }}
             >
               Bookstore
-            </CardTitle>
-            <img
-              src="books.svg"
-              alt="Bookstore"
-              className="project-image"
-            />
+            </CardText>
+            <img src="books.svg" alt="Bookstore" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
@@ -316,7 +303,6 @@ class Projects extends Component {
               </a>
             </CardActions>
           </Card>
-
           {/*Project #5*/}
           <Card
             shadow={5}
@@ -328,17 +314,17 @@ class Projects extends Component {
               fontFamily: 'Segoe UI',
             }}
           >
-            <CardTitle
+            <CardText
               style={{
                 fontSize: '20px',
                 fontFamily: 'Segoe UI',
                 fontWeight: 'bold',
                 paddingRight: '40px',
-                paddingLeft: '60px',
+                paddingLeft: '0px',
               }}
             >
               Calculator
-            </CardTitle>
+            </CardText>
             <img
               src="calculator.svg"
               alt="calculator"
@@ -390,7 +376,6 @@ class Projects extends Component {
               </a>
             </CardActions>
           </Card>
-
           {/*Project #6*/}
           <Card
             shadow={5}
@@ -402,22 +387,18 @@ class Projects extends Component {
               fontFamily: 'Segoe UI',
             }}
           >
-            <CardTitle
+            <CardText
               style={{
                 fontSize: '20px',
                 fontFamily: 'Segoe UI',
                 fontWeight: 'bold',
                 paddingRight: '40px',
-                paddingLeft: '40px',
+                paddingLeft: '0px',
               }}
             >
               E-Commerce
-            </CardTitle>
-            <img
-              src="shopping.svg"
-              alt="commerce"
-              className="project-image"
-            />
+            </CardText>
+            <img src="shopping.svg" alt="commerce" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
@@ -465,7 +446,6 @@ class Projects extends Component {
               </a>
             </CardActions>
           </Card>
-
           {/*Project #7*/}
           <Card
             shadow={5}
@@ -477,7 +457,7 @@ class Projects extends Component {
               fontFamily: 'Segoe UI',
             }}
           >
-            <CardTitle
+            <CardText
               style={{
                 fontSize: '20px',
                 fontFamily: 'Segoe UI',
@@ -487,12 +467,8 @@ class Projects extends Component {
               }}
             >
               Remember To Buy
-            </CardTitle>
-            <img
-              src="list.svg"
-              alt="ToDoList"
-              className="project-image"
-            />
+            </CardText>
+            <img src="list.svg" alt="ToDoList" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
@@ -556,25 +532,25 @@ class Projects extends Component {
               marginTop: '80px',
               marginLeft: '50px',
               padding: '50px',
-              fontFamily: 'Segoe UI',
+              fontFamily: 'Patrick Hand, cursive',
             }}
           >
-            <CardTitle
+            <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 fontWeight: 'bold',
                 paddingRight: '20px',
                 paddingLeft: '20px',
               }}
             >
               Gets Things Done - ToDo App
-            </CardTitle>
+            </CardText>
             <img src="toDoApp.svg" alt="Covid19" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 paddingLeft: '5px',
                 textDecoration: 'underline',
               }}
@@ -586,7 +562,7 @@ class Projects extends Component {
             <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 paddingLeft: '5px',
                 textDecoration: 'underline',
               }}
@@ -615,25 +591,25 @@ class Projects extends Component {
               marginTop: '80px',
               marginLeft: '50px',
               padding: '50px',
-              fontFamily: 'Segoe UI',
+              fontFamily: 'Patrick Hand, cursive',
             }}
           >
-            <CardTitle
+            <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 fontWeight: 'bold',
                 paddingRight: '20px',
                 paddingLeft: '20px',
               }}
             >
               Food Ordering App
-            </CardTitle>
+            </CardText>
             <img src="food.svg" alt="Covid19" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 paddingLeft: '5px',
                 textDecoration: 'underline',
               }}
@@ -645,13 +621,14 @@ class Projects extends Component {
             <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 paddingLeft: '5px',
                 textDecoration: 'underline',
               }}
             >
               Tools:
             </CardText>
+            Figma
             <CardActions>
               {/*link for Figma*/}
               <a
@@ -673,25 +650,25 @@ class Projects extends Component {
               marginTop: '80px',
               marginLeft: '50px',
               padding: '50px',
-              fontFamily: 'Segoe UI',
+              fontFamily: 'Patrick Hand, cursive',
             }}
           >
-            <CardTitle
+            <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 fontWeight: 'bold',
                 paddingRight: '20px',
                 paddingLeft: '20px',
               }}
             >
               Welcome to my App
-            </CardTitle>
+            </CardText>
             <img src="app.svg" alt="Covid19" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 paddingLeft: '5px',
                 textDecoration: 'underline',
               }}
@@ -708,7 +685,7 @@ class Projects extends Component {
             <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 paddingLeft: '5px',
                 textDecoration: 'underline',
               }}
@@ -737,36 +714,25 @@ class Projects extends Component {
               marginTop: '80px',
               marginLeft: '50px',
               padding: '50px',
-              fontFamily: 'Segoe UI',
+              fontFamily: 'Patrick Hand, cursive',
             }}
           >
-            <CardTitle
+            <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 fontWeight: 'bold',
                 paddingRight: '20px',
                 paddingLeft: '20px',
               }}
             >
               Website - Devity Company
-            </CardTitle>
+            </CardText>
             <img src="website.svg" alt="Covid19" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
-                paddingLeft: '5px',
-                textDecoration: 'underline',
-              }}
-            >
-              My role:
-            </CardText>
-            UX/UI Designer
-            <CardText
-              style={{
-                fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 paddingLeft: '5px',
                 textDecoration: 'underline',
               }}
@@ -785,7 +751,7 @@ class Projects extends Component {
             <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 paddingLeft: '5px',
                 textDecoration: 'underline',
               }}
@@ -834,25 +800,25 @@ class Projects extends Component {
               marginTop: '80px',
               marginLeft: '50px',
               padding: '50px',
-              fontFamily: 'Segoe UI',
+              fontFamily: 'Patrick Hand, cursive',
             }}
           >
-            <CardTitle
+            <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 fontWeight: 'bold',
                 paddingRight: '20px',
                 paddingLeft: '20px',
               }}
             >
               Animal Wiki - App
-            </CardTitle>
+            </CardText>
             <img src="animal.svg" alt="animal" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 paddingLeft: '5px',
                 textDecoration: 'underline',
               }}
@@ -865,7 +831,7 @@ class Projects extends Component {
             <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 paddingLeft: '5px',
                 textDecoration: 'underline',
               }}
@@ -894,25 +860,25 @@ class Projects extends Component {
               marginTop: '80px',
               marginLeft: '50px',
               padding: '50px',
-              fontFamily: 'Segoe UI',
+              fontFamily: 'Patrick Hand, cursive',
             }}
           >
-            <CardTitle
+            <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 fontWeight: 'bold',
                 paddingRight: '20px',
                 paddingLeft: '20px',
               }}
             >
               3D Design - App
-            </CardTitle>
+            </CardText>
             <img src="design.svg" alt="3D-design" className="project-image" />
             <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 paddingLeft: '5px',
                 textDecoration: 'underline',
               }}
@@ -924,7 +890,7 @@ class Projects extends Component {
             <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 paddingLeft: '5px',
                 textDecoration: 'underline',
               }}
@@ -953,20 +919,20 @@ class Projects extends Component {
               marginTop: '80px',
               marginLeft: '50px',
               padding: '50px',
-              fontFamily: 'Segoe UI',
+              fontFamily: 'Patrick Hand, cursive',
             }}
           >
-            <CardTitle
+            <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 fontWeight: 'bold',
                 paddingRight: '20px',
                 paddingLeft: '20px',
               }}
             >
               Eleni's Website
-            </CardTitle>
+            </CardText>
             <img
               src="websiteillustration.svg"
               alt="Eleni"
@@ -975,7 +941,7 @@ class Projects extends Component {
             <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 paddingLeft: '5px',
                 textDecoration: 'underline',
               }}
@@ -986,7 +952,7 @@ class Projects extends Component {
             <CardText
               style={{
                 fontSize: '20px',
-                fontFamily: 'Segoe UI',
+                fontFamily: 'Patrick Hand, cursive',
                 paddingLeft: '5px',
                 textDecoration: 'underline',
               }}
@@ -1020,11 +986,15 @@ class Projects extends Component {
             onChange={(tabId) => this.setState({ activeTab: tabId })}
             ripple
           >
-            <Tab style={{ fontFamily: 'Segoe UI', color: 'black' }}>
+            <Tab
+              style={{ fontFamily: 'Patrick Hand, cursive', color: 'black' }}
+            >
               Design
             </Tab>
-            <Tab style={{ fontFamily: 'Segoe UI', color: 'black' }}>
-             Development
+            <Tab
+              style={{ fontFamily: 'Patrick Hand, cursive', color: 'black' }}
+            >
+              Development
             </Tab>
           </Tabs>
         </Layout>

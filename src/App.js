@@ -34,31 +34,13 @@ function isSearched(searchTerm) {
 class App extends Component {
   constructor(props) {
     super(props)
-    // this.state = {
-    //   temperature: '',
-    //}
   }
   hideToggle() {
     var selectorId = document.querySelector('.mdl-layout')
     selectorId.MaterialLayout.toggleDrawer()
   }
-  // hideToggle() {
-  //   var selectorId = document.querySelector('.mdl-layout')
-  //   selectorId.MaterialLayout.toggleDrawer()
-  // }
-
-  // componentDidMount() {
-  //   console.log('CDM ran')
-  //   fetch(API)
-  //     .then((response) => response.json())
-  //     .then((data) => this.setState({ temperature: data.main.temp }))
-  // }
 
   render() {
-    // const temperature = this.state.temperature
-    // const pressure = this.state.pressure;
-    // const humidity = this.state.humidity;
-
     return (
       <div className="App">
         <header className="App-header">
@@ -80,7 +62,7 @@ class App extends Component {
                       fontSize: '25px',
                     }}
                     to="/"
-                  > 
+                  >
                     Eleni Aslanidou
                   </Link>
                 }
@@ -92,7 +74,7 @@ class App extends Component {
                     style={{
                       fontSize: '20px',
                       color: 'black',
-                      fontFamily: 'Sriracha',
+                      fontFamily: 'Patrick Hand, cursive',
                     }}
                   >
                     Projects
@@ -102,12 +84,11 @@ class App extends Component {
                     style={{
                       fontSize: '20px',
                       color: 'black',
-                      fontFamily: 'Sriracha',
+                      fontFamily: 'Patrick Hand, cursive',
                     }}
                   >
-                   Moto
+                    Moto
                   </Link>
-
                   <div className="page-content" />
                 </Navigation>
               </Header>
@@ -119,7 +100,7 @@ class App extends Component {
                       textDecoration: 'none',
                       color: 'blue',
                       fontSize: '20px',
-                      fontFamily: 'Sriracha',
+                      fontFamily: 'Patrick Hand, cursive',
                     }}
                     to="/"
                   >
@@ -131,7 +112,7 @@ class App extends Component {
                     style={{
                       color: 'black',
                       fontSize: '15px',
-                      fontFamily: 'Sriracha',
+                      fontFamily: 'Patrick Hand, cursive',
                     }}
                   >
                     Projects
@@ -142,10 +123,10 @@ class App extends Component {
                     style={{
                       color: 'black',
                       fontSize: '15px',
-                      fontFamily: 'Sriracha',
+                      fontFamily: 'Patrick Hand, cursive',
                     }}
                   >
-                  Moto
+                    Moto
                   </Link>
                 </Navigation>
               </Drawer>

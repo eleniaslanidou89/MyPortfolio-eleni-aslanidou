@@ -64,6 +64,11 @@
 
 .moto span {
   font-size: 18px;
+  font-family: 'Pacifico', cursive;
+}
+
+.moto p {
+  font-family: 'Pacifico', cursive;
 }
 
 .banner-text {
@@ -193,7 +198,6 @@
 
 /*contact page css*/
 .contact-body {
-  /* margin: auto; */
   position: fixed;
   width: 100%;
   height: 100%;
@@ -201,8 +205,8 @@
 }
 
 .contact-grid {
-  text-align: center;
-  justify-content: center;
+  text-align: left;
+  justify-content: left;
   width: 80%;
   height: 700px;
   font-family: "Dancing Script", cursive;
@@ -223,41 +227,23 @@
 }
 
 .title p {
-  font-size: 15px;
+  font-size: 18px;
+  margin-top: 100px;
+  font-family: 'Patrick Hand, cursive';
+}
+
+.email{
+  font-size: 18px;
   display: left;
-  margin-top: 20px;
+  margin-top: 10px;
+  padding-top: 15px;
+  font-weight: bold;
 }
 
 .moto p{
   font-size: 25px;
- 
   margin-top: 100px;
-}
-
-/*Arbetslivserfarenhet page css*/
-.arbetslivserfarenhet h1 {
-  font-family: "Dancing Script", cursive;
-}
-
-.arbetslivserfarenhet {
-  display: flex;
-  flex-direction: column;
-  min-width: 60px;
-  z-index: 100;
-}
-
-.arbetslivserfarenhet-list {
-  font-size: 30px;
-  font-family: "Dancing Script", cursive;
-}
-
-.erfarenhet-social-links i {
-  color: black;
-  padding: 15px;
-}
-
-.date {
-  color: blue;
+  font-family: 'Pacifico', cursive;
 }
 
 /* Tablet view */
@@ -316,31 +302,6 @@
     font-family: "Segoe UI";
   }
 
-  .social-links i {
-    font-size: 2em;
-  }
-
-  .arbetslivserfarenhet h1 {
-    font-size: 30px;
-  }
-
-  .erfarenhet-social-links {
-    font-size: 20px;
-  }
-
-  .utbildning {
-    height: 90vh;
-  }
-
-  .utbildning-list {
-    font-size: 5px;
-    z-index: 200;
-  }
-
-  .utbildning h1 {
-    font-size: 30px;
-  }
-
   .projects-grid {
     color: black;
     font-size: 10px;
@@ -349,23 +310,10 @@
     min-width: 100px;
   }
 
-  .språk h1 {
-    font-size: 20px;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    font-family: "Segoe UI";
-    margin-left: 30px;
-  }
-
-  .språk h2 {
-    font-size: 20px;
-  }
-
   .title p{
     font-size: 14px;
     display: left;
-    margin-top: 80px;
+    margin-top: 150px;
     padding-top: 5px;
     padding-top: 5px;
   }
@@ -376,14 +324,5 @@
     margin-top: 10px;
     padding-top: 15px;
     font-weight: bold;
-  }
-
-  .title i {
-    font-size: 15px;
-  }
-
-  .språk {
-    padding-left: 10px;
-    padding-top: 50px;
   }
 }
