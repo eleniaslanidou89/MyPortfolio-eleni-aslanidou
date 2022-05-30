@@ -173,29 +173,6 @@
   font-family: "Segoe UI";
 }
 
-/*utbildning page css*/
-.utbildning h1 {
-  font-family: "Dancing Script", cursive;
-}
-
-.utbildning {
-  display: flex;
-  flex-direction: column;
-  min-width: 60px;
-  z-index: 100;
-}
-
-.utbildning-list {
-  font-size: 30px;
-  font-family: "Dancing Script", cursive;
-}
-
-.info-utbildning i {
-  color: black;
-  font-size: 1em;
-  padding: 8px;
-}
-
 /*contact page css*/
 .contact-body {
   position: fixed;
@@ -224,12 +201,6 @@
 .title {
   padding-top: 0em;
   font-size: 50px;
-}
-
-.title p {
-  font-size: 18px;
-  margin-top: 50px;
-  font-family: 'Patrick Hand, cursive';
 }
 
 .email{
