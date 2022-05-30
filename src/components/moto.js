@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { Grid, Cell, Layout } from 'react-mdl'
+import { Grid, Cell } from 'react-mdl'
 
-class Contact extends Component {
+class Moto extends Component {
   render() {
     return (
-      <div className="contact-body">
-        <Grid className="contact-grid">
+      <div className="moto-body">
+        <Grid className="moto-grid">
           <Cell className="moto" col={6}>
             <p className="stars">
               "Shoot for the moon. Even if you miss it you will land among the
@@ -19,4 +19,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact
+export default Moto

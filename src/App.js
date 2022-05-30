@@ -80,7 +80,7 @@ class App extends Component {
                     Projects
                   </Link>
                   <Link
-                    to="/contact"
+                    to="/moto"
                     style={{
                       fontSize: '20px',
                       color: 'black',

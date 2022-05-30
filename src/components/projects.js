@@ -6,7 +6,6 @@ import {
   Cell,
   Card,
   CardText,
-  CardTitle,
   CardActions,
   Button,
   Layout,
@@ -21,6 +20,67 @@ class Projects extends Component {
     if (this.state.activeTab === 1) {
       return (
         <div className="projects-grid">
+          {/*Project #0*/}
+          <Card
+            shadow={5}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
+          >
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                fontWeight: 'bold',
+                paddingRight: '20px',
+                paddingLeft: '20px',
+              }}
+            >
+            Create an API
+            </CardText>
+            <img src="API.jpg" alt="API" className="project-image" />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Description:
+            </CardText>
+            My task was to create a Movie API written as a class using JavaScript. In complex applications we have different endpoints so I have used Express Wireframe which is both fast and lightweight for building applications. Also my project is based on Client Server Architecture which is a computing model in which the server hosts, delivers and manages most of the resources and services to be consumed by the client.
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Technologies used:
+            </CardText>
+            Joi(data validation) <br />
+            Express <br />
+            Mocha,Chai,Supertest(Testing)
+            <CardActions>
+              {/*link for github*/}
+              <a
+                href="https://github.com/eleniaslanidou89/Trainee-code-test"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  GitHub{' '}
+                  <i className="fab fa-github-square" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
           {/*Project #1*/}
           <Card
             shadow={5}
@@ -520,10 +580,6 @@ class Projects extends Component {
     } else if (this.state.activeTab === 0) {
       return (
         <div className="projects-grid">
-          {/* style={{
-          background:
-            'url(https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)center / cover',
-        }} */}
           {/*Project #1*/}
           <Card
             shadow={5}

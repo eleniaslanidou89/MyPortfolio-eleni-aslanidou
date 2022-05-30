@@ -14,7 +14,7 @@ class Landing extends Component {
           <Grid className="contact-grid">
             <Cell
               className="title"
-              col={6}
+              col={9}
               style={{
                 fontSize: '20px',
                 color: 'black',
