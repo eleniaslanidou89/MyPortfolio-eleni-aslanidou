@@ -8,29 +8,41 @@ class Landing extends Component {
         <Layout
           style={{
             background:
-              'url(https://images.pexels.com/photos/1172849/pexels-photo-1172849.jpeg?cs=srgb&dl=pexels-jess-bailey-designs-1172849.jpg&fm=jpg)center / cover',
+              'url(https://images.pexels.com/photos/1369280/pexels-photo-1369280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)center / cover',
           }}
         >
           <Grid className="contact-grid">
-            <Cell className="title" col={6}>
-              <p>
-                Hello! My name is Eleni Aslanidou. I am Web & Mobile Designer. I
-                have a Bachelor degree in IT Communication Engineering(Greece)
-                and a Frontend Development degree from KYH(Sweden). As a person
-                I have great energy and I am open minded. I am really good at
-                planning, prioritizing and presenting my work. I have the "of
-                course I can" attitude because I am not afraid of new
-                challenges.
-                <br />
-                <span> 💭➕ Positive thinking person</span>
-                <br />
-                <span> 🧠 Passionate learner</span>
-                <br />
-                <span> 🧩 Loves collaborating and working in a team </span>
-                <br />
-                <hr />
-                <span className="email">📬 helena.aslanidou@gmail.com</span>
-              </p>
+            <Cell
+              className="title"
+              col={6}
+              style={{
+                fontSize: '20px',
+                color: 'black',
+                fontFamily: 'Patrick Hand, cursive',
+                marginTop: '80px',
+              }}
+            >
+              Hello! My name is Eleni Aslanidou and I am Frontend Developer and
+              Web & Mobile Designer. I studied IT Communication Engineering in
+              Technological Educational Institute of Central Macedonia and
+              Frontend Development in KYH. As a person I have great energy and I
+              am open minded. I am really good at planning and prioritizing my
+              work which will be highly appreciated by my teammates.
+              Presentations are my passion, as it is fun to speak in front of an
+              audience, explaining the reasoning behind my code and design
+              creations. I love getting out of my comfort zone, which has been
+              the motivation to explore new areas. I want to be a part of a team
+              where I can learn from and contribute to.
+              <hr />
+              <br />
+              <span> 💭➕ Positive thinking person</span>
+              <br />
+              <span> 🧠 Passionate learner</span>
+              <br />
+              <span> 🧩 Loves collaborating and working in a team </span>
+              <br />
+              <hr />
+              <span className="email">📬 helena.aslanidou@gmail.com</span>
             </Cell>
           </Grid>
         </Layout>
